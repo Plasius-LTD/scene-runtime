@@ -96,6 +96,7 @@ export type SceneRuntimeValidationCode =
   | "invalid-type"
   | "invalid-id"
   | "invalid-value"
+  | "invalid-reference"
   | "missing-reference"
   | "adapter-failed";
 

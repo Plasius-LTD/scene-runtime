@@ -16,6 +16,21 @@ export {
   type SceneRuntimeValidationResult,
 } from "./types.js";
 export {
+  SCENE_RUNTIME_PLAYER_SYSTEM_INTERFACE_FLAG_ID,
+  type SceneRuntimeCombatBehavior,
+  type SceneRuntimeFocusMode,
+  type SceneRuntimeOverlayCollisionResolution,
+  type SceneRuntimeOverlayCollisionRule,
+  type SceneRuntimeOverlayComposition,
+  type SceneRuntimeOverlayCompositionRequest,
+  type SceneRuntimeOverlayFocusState,
+  type SceneRuntimeOverlayOwner,
+  type SceneRuntimeOverlaySurface,
+  type SceneRuntimeOverlaySurfaceKind,
+  composeSceneRuntimeOverlayComposition,
+  validateSceneRuntimeOverlayComposition,
+} from "./overlay.js";
+export {
   composeSceneRuntime,
   createSceneRuntimeComposition,
   resolveScenePalette,
