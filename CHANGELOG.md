@@ -9,6 +9,10 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 ## [Unreleased]
 
 - **Added**
+  - Added Player/System overlay composition contracts for ownership, focus modes, collision rules, and combat-safe reduction under `isekai.player-system.interface.enabled`.
+  - Added reusable validation and composition helpers for Party/System overlay planning.
+
+- **Added**
   - Added `@plasius/scene-runtime` package surface for runtime composition and palette adapter contracts.
   - Added composition validation and adapter-driven palette resolution helpers.
 
