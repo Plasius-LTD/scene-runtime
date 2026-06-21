@@ -1,6 +1,6 @@
 {
   "name": "@plasius/scene-runtime",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Scene runtime composition and configurable animation palette adapters",
   "type": "module",
   "sideEffects": false,
