@@ -1,5 +1,13 @@
 # @plasius/scene-runtime
 
+[![npm version](https://img.shields.io/npm/v/@plasius/scene-runtime.svg)](https://www.npmjs.com/package/@plasius/scene-runtime)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Plasius-LTD/scene-runtime/ci.yml?branch=main&label=build&style=flat)](https://github.com/Plasius-LTD/scene-runtime/actions/workflows/ci.yml)
+[![coverage](https://img.shields.io/codecov/c/github/Plasius-LTD/scene-runtime)](https://codecov.io/gh/Plasius-LTD/scene-runtime)
+[![License](https://img.shields.io/github/license/Plasius-LTD/scene-runtime)](./LICENSE)
+[![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-yes-blue.svg)](./CODE_OF_CONDUCT.md)
+[![Security Policy](https://img.shields.io/badge/security%20policy-yes-orange.svg)](./SECURITY.md)
+[![Changelog](https://img.shields.io/badge/changelog-md-blue.svg)](./CHANGELOG.md)
+
 Composable scene runtime contracts for object placement, layout zones, and configurable palette adapters.
 
 ## Installation
