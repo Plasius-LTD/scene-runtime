@@ -8,6 +8,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ## [Unreleased]
 
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
+
+- **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [0.1.9] - 2026-10-04
+
 - Refresh npm dependency lockfile to current supported stable versions (weekly maintenance, 2026-10-04).
 
 - **Added**
@@ -128,7 +142,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/scene-runtime/compare/v0.1.8...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/scene-runtime/compare/v0.1.9...HEAD
 
 
 [0.1.3]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.3
@@ -137,3 +151,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [0.1.6]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.6
 [0.1.7]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.7
 [0.1.8]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.8
+[0.1.9]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.9
