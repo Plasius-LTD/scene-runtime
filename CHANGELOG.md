@@ -15,7 +15,9 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - (placeholder)
 
 - **Fixed**
-  - (placeholder)
+  - Restore approved self-hosted CI for trusted branch pushes and manual runs,
+    with regression contracts for runner labels, repository/event guards,
+    bounded execution and credential-free checkout; preserve hosted OIDC CD.
 
 - **Security**
   - (placeholder)
