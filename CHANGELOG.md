@@ -15,6 +15,20 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - (placeholder)
 
 - **Fixed**
+  - (placeholder)
+
+- **Security**
+  - (placeholder)
+
+## [0.1.13] - 2026-10-28
+
+- **Added**
+  - (placeholder)
+
+- **Changed**
+  - (placeholder)
+
+- **Fixed**
   - Restore approved self-hosted CI for trusted branch pushes and manual runs,
     with regression contracts for runner labels, repository/event guards,
     bounded execution and credential-free checkout; preserve hosted OIDC CD.
@@ -192,7 +206,7 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ---
 
-[Unreleased]: https://github.com/Plasius-LTD/scene-runtime/compare/v0.1.12...HEAD
+[Unreleased]: https://github.com/Plasius-LTD/scene-runtime/compare/v0.1.13...HEAD
 
 
 [0.1.3]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.3
@@ -205,3 +219,4 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 [0.1.10]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.10
 [0.1.11]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.11
 [0.1.12]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.12
+[0.1.13]: https://github.com/Plasius-LTD/scene-runtime/releases/tag/v0.1.13
