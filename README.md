@@ -53,10 +53,30 @@ npm run pack:check
 ## Release integrity
 
 CI keeps the administrative contributor registry outside Git and npm package
-artifacts using exact, case-normalised path checks. Reviewed CI runs on explicit
-GitHub-hosted runners with package-manager caching disabled; fork PR code is
-denied. Publication uses the GitHub-hosted `production` job with Node 24 and
+artifacts using exact, case-normalised path checks. CI runs only on explicit
+`[self-hosted, Linux, X64]` runners for pushes to branches in this repository
+and manual dispatches. PR events, including fork PRs, cannot schedule CI;
+maintainers review external contributions before admitting them to a trusted
+branch. A fixed repository/event guard protects both jobs, checkout credentials
+are not persisted, package-manager caching is disabled, and jobs have bounded
+timeouts. New pushes cancel superseded CI for the same branch. Publication uses
+the GitHub-hosted `production` job with Node 24 and
 pinned npm 11.6.2. It is token-free and proceeds only while the prepared SHA
 is the exact `main` head after successful push-triggered CI. Do not dispatch CD
 until the npm trusted-publisher binding is verified.
+
+For changes to trusted branches, open a PR and verify its push-triggered CI at
+the exact head commit before merging. Release through `cd.yml` on `main` with
+`phase=prepare` and `bump=patch`; the existing workflow prepares a new version,
+waits for exact-main push CI, and dispatches the hosted OIDC publish phase.
+Release preparation, sealed-package validation, publication dispatch, and npm
+publication stay GitHub-hosted as the release path; scheduled dependency
+maintenance also stays hosted and does not supply release CI evidence.
+
+Feature `platform.public-artifact-integrity.enabled` belongs to the site rollout
+control plane. Enabled permits staged distribution; disabled pauses promotion.
+Integrity and trust gates remain mandatory in either state. To roll back this
+workflow change, disable CI and the CD publication channel while correcting the
+workflow; do not add hosted CI fallback, restore the administrative registry,
+or republish a removed npm version.
 <!-- END PLASIUS RELEASE INTEGRITY -->
